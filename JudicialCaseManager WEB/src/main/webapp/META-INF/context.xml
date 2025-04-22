@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <!-- MySQL DataSource Configuration -->
+    <Resource
+        name="jdbc/CourtDB"
+        auth="Container"
+        type="javax.sql.DataSource"
+        maxTotal="100"
+        maxIdle="30"
+        maxWaitMillis="10000"
+        username="root"
+        password="root"
+        driverClassName="com.mysql.cj.jdbc.Driver"
+        url="jdbc:mysql://localhost:3306/judiciary?useSSL=false&amp;serverTimezone=UTC&amp;allowPublicKeyRetrieval=true"
+    />
+</Context>
