@@ -4,6 +4,8 @@
 
 ---
 
+**This project is a follow-up project to the initially built database: [Judicial Case Management System](https://github.com/Chintnn/Judicial-Case-Management-System)**
+
 The **Judicial Case Manager** repository hosts two integrated Java applications—a desktop Swing client and a Java Servlet–based web interface—both backed by a centralized MySQL judicial database. Together, these modules provide a unified solution for legal professionals to:
 
 - **Record** and **manage** detailed case files (petitioners, respondents, hearing notes, evidence, verdicts).
